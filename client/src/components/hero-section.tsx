@@ -111,7 +111,7 @@ export function HeroSection() {
           >
             <div className="relative">
               <motion.img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500" 
+                src="https://cdn.britannica.com/92/215392-050-96A4BC1D/Australian-actor-Chris-Hemsworth-2019.jpg" 
                 alt="Aadesh Sain - Frontend Developer" 
                 className="w-80 h-80 rounded-full object-cover shadow-2xl animate-float"
                 animate={{ y: [0, -10, 0] }}
