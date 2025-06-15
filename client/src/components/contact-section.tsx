@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
-import { Mail, Github, Linkedin, Send } from "lucide-react";
+import { Mail, Github, Linkedin, Send, Phone } from "lucide-react";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 
@@ -171,10 +171,10 @@ export function ContactSection() {
                     <div>
                       <p className="font-medium">Email</p>
                       <a 
-                        href="mailto:saiaadesh1121@gmail.com" 
+                        href="mailto:sainaadesh1121@gmail.com" 
                         className="text-primary hover:underline"
                       >
-                        saiaadesh1121@gmail.com
+                        sainaadesh1121@gmail.com
                       </a>
                     </div>
                   </div>
@@ -212,6 +212,21 @@ export function ContactSection() {
                       </a>
                     </div>
                   </div>
+                       <div className="flex items-center space-x-4">
+                         <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center text-white">
+                           <Phone className="h-6 w-6" />
+                         </div>
+                         <div>
+                           <p className="font-medium">Phone</p>
+                           <a 
+                             href="tel:6367708083" 
+                              className="text-primary hover:underline"
+                           >
+                             6367708083
+                           </a>
+                         </div>
+                       </div>
+
                 </div>
               </CardContent>
             </Card>

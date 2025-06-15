@@ -92,13 +92,28 @@ export function HeroSection() {
               >
                 View My Work
               </Button>
-              <Button 
+              {/* <Button 
                 variant="outline" 
                 size="lg"
                 className="hover:border-primary hover:text-primary transition-all duration-300"
               >
                 Download CV
-              </Button>
+              </Button> */}
+
+              <Button 
+  variant="outline" 
+  size="lg"
+  className="hover:border-primary hover:text-primary transition-all duration-300"
+>
+  <a 
+    href="/Aadesh_Sain.pdf" 
+    download 
+    className="w-full h-full block px-4 py-2"
+  >
+    Download CV
+  </a>
+</Button>
+
             </motion.div>
           </motion.div>
           
@@ -111,7 +126,8 @@ export function HeroSection() {
           >
             <div className="relative">
               <motion.img 
-                src="https://cdn.britannica.com/92/215392-050-96A4BC1D/Australian-actor-Chris-Hemsworth-2019.jpg" 
+                src="/myimg.jpg" 
+                // src="https://cdn.britannica.com/92/215392-050-96A4BC1D/Australian-actor-Chris-Hemsworth-2019.jpg" 
                 alt="Aadesh Sain - Frontend Developer" 
                 className="w-80 h-80 rounded-full object-cover shadow-2xl animate-float"
                 animate={{ y: [0, -10, 0] }}
