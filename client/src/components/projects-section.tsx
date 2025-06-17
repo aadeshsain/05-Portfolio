@@ -216,7 +216,7 @@ const projects = [
     tech: ["React", "TypeScript", "Tailwind"],
     isPrivate: false,
     categoryColor: "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-300",
-    liveLink: "https://dashboard.render.com/static/srv-d164dl8dl3ps739vqhag"
+    liveLink: "https://learn-support-main.onrender.com"
   },
   // {
   //   name: "Kid-ex",

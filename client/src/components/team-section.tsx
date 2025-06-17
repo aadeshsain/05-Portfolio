@@ -3,56 +3,56 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const teamMembers = [
 
-  {
-    name: "Sukhdev Sain",
-    role: "PHP Developer",
-    image: "/sukhi.jpg",
-    bio: "Full-stack engineer specializing in scalable backend architectures and PHP development."
-  },
-  {
-    name: "Gourav Sain",
-    role: "PHP Developer",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400",
-    bio: "Full-stack engineer specializing in scalable backend architectures and PHP development."
-  },
-  {
-    name: "Vishal Sain",
-    role: "full stack developer",
-    image: "/vishal.jpg",
-    bio: "Full stack developer in php laravel and react with 2+ years of experience."
-  },
-{ 
+{
+  name: "Sukhdev Sain",
+  role: "PHP Developer",
+  image: "/sukhi.jpg",
+  bio: "Backend developer with a strong focus on PHP and building high-performance, scalable systems."
+},
+{
+  name: "Gourav Sain",
+  role: "PHP Developer",
+  image: "./goru.jpg",
+  bio: "Experienced PHP developer skilled in creating robust backend solutions and maintaining scalable infrastructures."
+},
+{
+  name: "Vishal Sain",
+  role: "Full Stack Developer",
+  image: "/vishal.jpg",
+  bio: "Skilled in Laravel and React, delivering full-stack solutions with over 2 years of hands-on experience."
+},
+{
   name: "Amit Sain",
   role: "UI/UX Designer",
   image: "/mitu.jpg",
-  bio: "Full-stack engineer specializing in scalable backend architectures and PHP development."
+  bio: "UI/UX expert with a keen eye for design and a background in building responsive web experiences."
 },
-    {
-    name: "Neha Sain",
-    role: "frontend developer",
-    image: "/neha.jpg",
-    bio: "Creative designer with 2+ years of experience in crafting beautiful and intuitive user interfaces."
-  },
-  {
-    name: "Anu sain",
-    role: "react and wordpress developer",
-    image: "/anu.jpg",
-    bio: "react and wordpress designer in ittechxpert within 2+ years of experience."
-  },
-  {
-    name: "Shivani Sain",
-    role: "wordpress developer",
-    image: "/shiwanisain.jpg",
-    bio: "Creative designer with 2+ years of experience in crafting beautiful and intuitive user interfaces."
-  },
-  {
-    name: "Parul Sain",
-    role: "Security Specialist",
-    image: "/sukhi.jpg",
-    bio: "Creative designer with 2+ years of experience in crafting beautiful and intuitive user interfaces."
-  },
+{
+  name: "Neha Sain",
+  role: "Frontend Developer",
+  image: "/neha.jpg",
+  bio: "Frontend specialist passionate about designing clean, user-friendly interfaces with modern frameworks."
+},
+{
+  name: "Anu Sain",
+  role: "React & WordPress Developer",
+  image: "/anu.jpg",
+  bio: "React and WordPress developer at ITTechXpert, delivering dynamic web solutions for over 2 years."
+},
+{
+  name: "Shivani Sain",
+  role: "WordPress Developer",
+  image: "/shiwanisain.jpg",
+  bio: "Focused on crafting elegant, custom WordPress themes with a strong foundation in UI design."
+},
+// {
+//   name: "Parul Sain",
+//   role: "Security Specialist",
+//   image: "/sukhi.jpg",
+//   bio: "IT security specialist ensuring data protection and application integrity with a creative problem-solving approach."
+// },
 
-];
+];  
 
 export function TeamSection() {
   return (
